@@ -6,11 +6,7 @@
     "target": "es6",
     "module": "commonjs",
     "declaration": true,
-    "sourceMap": true,
-    "baseUrl": ".",
-    "paths": {
-      "@juriscape/driver/*": ["build/*"]
-    }
+    "sourceMap": true
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]
