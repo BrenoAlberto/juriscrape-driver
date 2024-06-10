@@ -1,4 +1,4 @@
-import { type Browser, type Page } from '@juriscrape/driver'
+import { type Browser, type Page } from 'puppeteer'
 import { logger } from '@juriscrape/common'
 
 type PreloadConfig = Record<string, { url: string }>
