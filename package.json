@@ -7,10 +7,6 @@
   "files": [
     "build/**/*"
   ],
-  "exports": {
-    ".": "./build/index.js",
-    "./puppeteer": "./build/puppeteer/index.js"
-  },
   "scripts": {
     "clean": "del ./build/*",
     "build": "npm run clean && tsc"
