@@ -4,9 +4,6 @@
   "description": "",
   "main": ".build/index.js",
   "types": "build/index.d.ts",
-  "exports": {
-    "./Puppeteer/": "./build/puppeteer/"
-  },
   "files": [
     "build"
   ],
