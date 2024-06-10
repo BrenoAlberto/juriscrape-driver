@@ -9,7 +9,7 @@
     "sourceMap": true,
     "baseUrl": ".",
     "paths": {
-      "@juriscape/driver/puppeteer": ["/src/puppeteer"]
+      "@juriscape/driver/*": ["src/*"]
     }
   },
   "include": ["src/**/*.ts"],
