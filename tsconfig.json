@@ -9,7 +9,7 @@
     "sourceMap": true,
     "baseUrl": ".",
     "paths": {
-      "@juriscape/driver/*": ["src/*"]
+      "@juriscape/driver/*": ["build/*"]
     }
   },
   "include": ["src/**/*.ts"],
